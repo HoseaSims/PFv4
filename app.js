@@ -7,9 +7,7 @@ const body = document.querySelector('body')
 
 infoBox.classList.add('visible')
 
-let test = `<div>
 
-            </div>`
 
 nav.addEventListener('click', e =>{
 
