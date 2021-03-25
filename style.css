@@ -1,14 +1,21 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
 }
 
 body{
-    background-color: black;
-    color: white;
-    text-align: center;
+    background: rgb(0,0,0);
+    background: linear-gradient(45deg, rgba(0,0,0,1) 17%, rgba(57,57,58,1) 100%);
+    background-attachment:fixed;
     height: 100vh;
-    
+    color: #E3B23C;
+    text-align: center;
+}
+
+.bodyH{
+    height: 100vh;
 }
 
 .nav{
@@ -21,13 +28,48 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: rgba(0, 0, 0, .2);
+    font-size: 2rem;
+    box-shadow: 0 0 15px #E55934;
+    border-radius: 10px;
+    margin: 10% 30% 10% 30%;
+    opacity: 0;
 }
 
-.home{
-    color: orange;
-    font-size: 2rem;
-    border: solid 2px orange;
+
+
+button{
+    background-color: transparent;
+    color: #E3B23C;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #E55934;
+    transition-duration: 150ms;
+}
+
+.nav :hover{
+    color: #E55934;
+    font-size: 2.2rem;
+    transition-duration: 150ms;
+}
+
+a{
+    color: #E3B23C;
+}
+
+.project-cards{
     
+    font-size: 1.5rem;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.fab{
+    margin-top: 10%;
+    font-size: 2rem;
+}
+
+img{
+    width: 100%;
 }
 
 button{
@@ -35,6 +77,21 @@ button{
     font-size: 2rem;
 }
 
+@media (max-width: 411px){
+    .info-box{
+        margin: 10% 10px;
+        font-size: 1.2rem;
+    }
+}
+
+.visible{
+    opacity: 1;
+    transition-property: opacity;
+    transition-duration: 1000ms;
+}
+
 .hidden{
     opacity: 0;
+    transition-property: opacity;
+    transition-duration: 1000ms;
 }
