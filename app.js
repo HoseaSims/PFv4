@@ -49,26 +49,31 @@ nav.addEventListener('click', e =>{
             home.classList.remove('hidden')
             home.innerHTML = `<div>
             <h2>Projects</h2>
-            <div class="project-cards">
+            <a href="https://hoseasims.github.io/Weather-Project/"target="_blank"><div class="project-cards">
             <img src="/PFv4/img/Weather-app img.png">
             <div class="container">
               <h3><b>Weather App</b></h3>
               <p>A weather app constructed with HTML, CSS, JavaScript, and the AccuWeather API. Simple and straightforward. Users can search for a city or zip code to acquire the location, temperature, and current condition using the AccuWeather API. Displays changing background images depending on current conditions. </p>
             </div>
+            </a>
 
+            <a href="https://hoseasims.github.io/Todo-app/" target="_blank">
             <div class="project-cards">
             <img src="/PFv4/img/todo app image.png">
             <div class="container">
               <h3><b>Todo App</b></h3>
               <p>Todo list constructed with HTML, CSS and JavaScript</p>
             </div>
+            </a>
 
+            <a href="https://hoseasims.github.io/DinnerDecider/" target="_blank">
             <div class="project-cards">
             <img src="/PFv4/img/DinnerDeciderOrange.png">
             <div class="container">
               <h3><b>Dinner Decider</b></h3>
               <p>Enter the future where machines make all the decisions for you. A simple app for the indecisive. made with HTML, CSS, JavaScript</p>
             </div>
+
 
 
 
