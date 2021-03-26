@@ -15,7 +15,7 @@ nav.addEventListener('click', e =>{
         home.classList.add('hidden')
         setTimeout(() =>{
             home.classList.remove('hidden')
-            home.innerHTML = "<div><h1>I'm Hosea</h1><p>A frontend Web Developer!</p></div>"
+            home.innerHTML = "<div class='home'><h1>I'm Hosea</h1><p>A frontend Web Developer!</p></div>"
         }, 700)
         
     }
@@ -26,13 +26,13 @@ nav.addEventListener('click', e =>{
             home.innerHTML = `<div>
             
             <h2>Some of my many Skills</h2>
-            <i class="fab skill-icons fa-html5"></i>
+            <i class="skill-icon fab skill-icons fa-html5"></i>
       <p>HTML</p>
-      <i class="fab skill-icons fa-css3-alt"></i>
+      <i class="skill-icon fab skill-icons fa-css3-alt"></i>
       <p>CSS</p>
-      <i class="fab skill-icons fa-js-square"></i>
+      <i class="skill-icon fab skill-icons fa-js-square"></i>
       <p>JavaScript</p>
-      <i class="fab skill-icons fa-react"></i>
+      <i class="skill-icon fab skill-icons fa-react"></i>
       <p>React</p>
             
             </div>`
@@ -88,9 +88,10 @@ nav.addEventListener('click', e =>{
             home.innerHTML = `<div class='contact'>
             <h2>Hoseasims21@gmail.com</h2>
             <a href="mailto:Hoseasims21@gmail.com"
-        ><i class="fas fa-envelope"></i></a>
+        ><i class="contact-icon fas fa-envelope"></i></a>
+        
       <a href="https://github.com/HoseaSims" target="_blank"
-        ><i class="fab fa-github"></i></a>
+        ><i class="contact-icon fab fa-github"></i></a>
             </div>`
         }, 700)
     }
